@@ -1,0 +1,18 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../project_4.srcs/sources_1/new/A_SEL.v" \
+"../../../../project_4.srcs/sources_1/new/NEXT_SEL.v" \
+"../../../../project_4.srcs/sources_1/new/N_ZERO.v" \
+"../../../../project_4.srcs/sources_1/new/R_NEXT.v" \
+"../../../../project_4.srcs/sources_1/new/R_SUM.v" \
+"../../../../project_4.srcs/sources_1/new/SUM_SEL.v" \
+"../../../../project_4.srcs/sources_1/new/add1.v" \
+"../../../../project_4.srcs/sources_1/new/add2.v" \
+"../../../../project_4.srcs/sources_1/new/ram.v" \
+"../../../../project_4.srcs/sources_1/new/datapath.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
